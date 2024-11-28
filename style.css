@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.maintop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  font-size: 36px;
+  font-weight: 275;
+  line-height: 54px;
+  letter-spacing: 0.25px;
+  color: rgba(77, 79, 98, 1);
+}
+
+.text2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0.25px;
+  color: rgba(77, 79, 98, 1);
+  position: relative;
+  bottom: 70px;
+}
+
+.text4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+  color: rgba(77, 79, 98, 1);
+  opacity: 0.5;
+  margin-top: -20px;
+  position: relative;
+  bottom: 70px;
+  width: 540px;
+  height: 50px;
+}
+
+.maintop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.mainbottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.upperborders {
+  display: flex;
+  gap: 35px;
+}
+.supervisor {
+  width: 350px;
+  height: 250px;
+  padding-left: 15px;
+  position: relative;
+  top: 130px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.teambuilder {
+  width: 350px;
+  height: 250px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.calculator {
+  width: 350px;
+  height: 250px;
+  padding-left: 15px;
+  position: relative;
+  top: 130px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.supertext {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(77, 79, 98, 1);
+}
+
+.supervisor {
+  border-top: 5px solid rgba(68, 211, 210, 1);
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+}
+
+.teambuilder {
+  border-top: 5px solid rgba(234, 84, 84, 1);
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+}
+
+.calculator {
+  border-top: 5px solid rgba(84, 158, 242, 1);
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+}
+
+.supertext2 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.0902777761220932px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(77, 79, 98, 1);
+  opacity: 50%;
+  width: 286px;
+  height: 46px;
+}
+
+.img {
+  position: relative;
+  left: 250px;
+  top: 25px;
+}
+
+.teamtext2 {
+  color: rgba(77, 79, 98, 1);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.buildertext {
+  width: 286px;
+  height: 46px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.0902777761220932px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  opacity: 50%;
+}
+
+.img2 {
+  position: relative;
+  left: 250px;
+  top: 40px;
+}
+.teamtext2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.calctext2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.calctext3 {
+  width: 286px;
+  height: 46px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.0902777761220932px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  opacity: 50%;
+}
+
+.img3 {
+  position: relative;
+  left: 250px;
+  top: 40px;
+}
+
+.karma {
+  border-top: 5px solid rgba(252, 174, 74, 1);
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  width: 370px;
+  height: 250px;
+}
+
+.karmatext {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.karmatext2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.karmatext3 {
+  width: 286px;
+  height: 46px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.0902777761220932px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  opacity: 50%;
+}
+
+.img4{
+    position: relative;
+    left: 270px;
+    top: 35px;
+}
